@@ -1,0 +1,127 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding-left: 40px;
+	margin: 20px;
+}
+
+h1 {
+	margin-bottom: 30px;
+	font-size: 3rem;
+}
+
+.order-container {
+	display: inline-block;
+	margin-right: 15px;
+	position: relative;
+}
+
+.orders {
+	width: 350px;
+	border: 2px solid black;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.orders h2 {
+	margin-bottom: 20px;
+	font-size: 2rem;
+}
+
+.orders p {
+	font-size: 2rem;
+}
+
+footer {
+	background-color: yellow;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+footer form {
+	position: relative;
+	left: 500px;
+	margin-top: 50px;
+	display: inline-block;
+	width: 100%;
+	height: 120px;
+}
+
+footer input[type="text"] {
+	padding: 15px;
+	width: 50%;
+	font-size: 1.5rem;
+}
+
+footer input[type="submit"] {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+footer input[type="submit"]:hover {
+	background-color: #0056b3;
+}
+
+.delete_button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	background-color: #ff3333;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1rem;
+	cursor: pointer;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.delete_button:hover {
+	background-color: #cc0000; /* Darker red on hover */
+}
+
+.edit_order {
+	display: inline-block;
+}
+
+.edit_button {
+	width: 60px;
+	height: 30px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.edit_button:hover {
+	background-color: #0056b3;
+}
+
+textarea {
+	width: 80%;
+	height: 100px;
+	margin-top: 10px;
+	padding: 10px;
+	resize: none;
+	font-size: 1rem;
+}

@@ -1,0 +1,135 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #121212;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 1rem;
+	margin-right: 20px;
+	border-radius: 5px;
+	background-color: #8e0000;
+	transition: background-color 0.3s ease;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 50px;
+	background-color: #b61827;
+	padding: 0 20px;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+a:hover {
+	background-color: #c40000;
+}
+
+main {
+	padding: 30px;
+}
+
+.items {
+	display: inline-block;
+	width: 15%; /* Adjust width as needed */
+	vertical-align: top; /* Align items at the top */
+	margin: 10px;
+	background-color: #333; /* Add a background color for clarity */
+	padding: 10px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	max-height: 200px;
+}
+
+p {
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+.spinner {
+	width: 20%;
+	padding: 8px;
+	margin-right: 10px;
+}
+
+input[type="submit"] {
+	padding: 10px 5px;
+	border: none;
+	border-radius: 5px;
+	background-color: #8e0000;
+	color: #fff;
+	font-size: 0.8rem;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	width: 33%;
+}
+
+input[type="submit"]:hover {
+	background-color: #c40000;
+}
+#error-message {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	width: 350px;
+	padding: 15px;
+	background-color: #ff5252;
+	color: white;
+	border: 2px solid #b61827;
+	border-radius: 10px;
+}
+
+#error-message h3 {
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+#error-message ul {
+	padding: 0;
+	margin: 10px;
+	list-style: none;
+}
+
+#error-message li p {
+	margin-bottom: 15px;
+	font-size: 1.2rem;
+}
+
+#success-message {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	width: 350px;
+	padding: 15px;
+	background-color: #4caf50; /* Green color */
+	color: white;
+	border: 2px solid #388e3c; /* Darker green color */
+	border-radius: 10px;
+}
+
+#success-message h3 {
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+#success-message p {
+	margin: 10px 0;
+	font-size: 1.2rem;
+}
